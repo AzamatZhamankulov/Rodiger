@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
+*, 
 *::after,
 *::before {
   box-sizing: border-box;
@@ -160,11 +160,9 @@ html {
 
 @media screen and (max-width: 575.98px){
   .container {
-   max-width: 560px;
+    max-width: 560px;
     margin: auto;
-    // background-size: 100%; 
     background-size: cover; 
-
   }
 
 .main {
